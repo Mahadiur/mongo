@@ -8,7 +8,7 @@ load_dotenv(find_dotenv())
 # Cluster password
 passward = os.environ.get('MONGODB_PWD')
 # Connection url
-connection_url = f'mongodb+srv://Mahadiur:{passward}@mongodbpractise.ywrnzxa.mongodb.net/'
+connection_url = f'mongodb+srv://Mongodb01:{passward}@mongodbpractise.ywttaux.mongodb.net/'
 # called this url
 client = MongoClient(connection_url)
 
